@@ -74,7 +74,7 @@ class FlightSearch:
                 out_date=data["route"][0]["local_departure"].split("T")[0],
                 return_date=data["route"][1]["local_departure"].split("T")[0],
             )
-       
+
         # print(flight_data.origin_city,
         #       flight_data.origin_airport,
         #       flight_data.arrival_airport,
